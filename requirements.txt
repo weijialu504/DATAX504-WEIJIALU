@@ -1,0 +1,14 @@
+# Python environment — DATAX504
+tensorflow>=2.16
+keras>=3.0
+numpy>=1.26
+pandas>=2.1
+matplotlib>=3.8
+scikit-learn>=1.4
+jupyterlab>=4.0
+seaborn>=0.13
+tensorflow-datasets>=4.9   # Assignment 5 Track B (AG News)
+
+# Optional: experiment tracking, tuning
+# keras-tuner>=1.4
+# tensorboard>=2.16
