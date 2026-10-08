@@ -1,0 +1,71 @@
+{
+  "train_subjects": [
+    "501",
+    "502",
+    "503",
+    "504",
+    "505",
+    "506",
+    "507",
+    "508",
+    "509",
+    "513",
+    "515",
+    "516",
+    "517",
+    "518"
+  ],
+  "validation_subjects": [
+    "510",
+    "514"
+  ],
+  "test_subjects": [
+    "511",
+    "512"
+  ],
+  "class_names": [
+    "lying",
+    "sitting",
+    "standing",
+    "walking"
+  ],
+  "sensor_columns": [
+    "back_x",
+    "back_y",
+    "back_z",
+    "thigh_x",
+    "thigh_y",
+    "thigh_z"
+  ],
+  "target_label_codes": [
+    1,
+    6,
+    7,
+    8
+  ],
+  "window_size": 100,
+  "step_size": 50,
+  "max_interval_seconds": 0.03,
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "max_epochs": 30,
+  "patience": 5,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "archive_sha256": "5db89b85c1a4f494f51fcc6661eb2ad41dd7efbc4799c776e794c56fb439e5c3",
+  "versions": {
+    "python": "3.12.14",
+    "tensorflow": "2.20.0",
+    "keras": "3.15.1",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit_learn": "1.8.0"
+  },
+  "previous_test_results_seen": true,
+  "normalisation": "mean and std of training windows only",
+  "representative_model_seed": 42,
+  "representative_model_selection": "fixed seed, not best test score"
+}

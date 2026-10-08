@@ -1,0 +1,4 @@
+split,participants,windows,lying,sitting,standing,walking
+train,14,32203,3189,7624,5114,16276
+validation,2,3991,408,976,625,1982
+test,2,4172,436,958,696,2082

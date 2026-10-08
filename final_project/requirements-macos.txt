@@ -1,0 +1,11 @@
+# Optional Mac CPU environment. These compatibility combinations were not
+# executed for this report. Cross-platform retraining can change numerical scores.
+# TensorFlow 2.16.2 is the final supported release for Intel macOS.
+tensorflow==2.16.2; platform_machine == "x86_64"
+tensorflow==2.20.0; platform_machine == "arm64"
+numpy>=1.26,<2
+pandas==2.2.3
+scikit-learn>=1.5,<1.9
+matplotlib>=3.9,<3.11
+jupyterlab>=4,<5
+ipykernel>=6,<8

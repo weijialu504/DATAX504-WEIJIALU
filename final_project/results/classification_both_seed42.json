@@ -1,0 +1,39 @@
+{
+  "lying": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 436.0
+  },
+  "sitting": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 958.0
+  },
+  "standing": {
+    "precision": 0.9971264367816092,
+    "recall": 0.9971264367816092,
+    "f1-score": 0.9971264367816092,
+    "support": 696.0
+  },
+  "walking": {
+    "precision": 0.9990393852065321,
+    "recall": 0.9990393852065321,
+    "f1-score": 0.9990393852065321,
+    "support": 2082.0
+  },
+  "accuracy": 0.9990412272291467,
+  "macro avg": {
+    "precision": 0.9990414554970354,
+    "recall": 0.9990414554970354,
+    "f1-score": 0.9990414554970354,
+    "support": 4172.0
+  },
+  "weighted avg": {
+    "precision": 0.9990412272291467,
+    "recall": 0.9990412272291467,
+    "f1-score": 0.9990412272291467,
+    "support": 4172.0
+  }
+}

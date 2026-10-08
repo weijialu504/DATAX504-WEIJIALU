@@ -1,0 +1,7 @@
+# Exact direct dependencies for the recorded Linux / Python 3.12 CPU run.
+tensorflow-cpu==2.20.0
+keras==3.15.1
+numpy==2.3.5
+pandas==2.2.3
+scikit-learn==1.8.0
+matplotlib==3.10.8
